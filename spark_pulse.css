@@ -1,0 +1,258 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.app-header img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.app-info h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.app-info p {
+    margin: 5px 0;
+    color: #aaa;
+}
+
+.rating,
+.install-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.rating {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.rating span {
+    color: #aaa;
+    text-wrap: nowrap;
+}
+
+.rating::-webkit-scrollbar {
+    display: none;
+}
+
+.rating {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.install-button{
+    width: 100%;
+    margin-top: 30px;
+}
+.install-button button {
+    background-color: #3f51b5;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.promo::-webkit-scrollbar {
+    display: none;
+}
+
+.promo {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.promo {
+    margin-top: 20px;
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    height: 400px;
+}
+
+#promo div {
+    width: 330px;
+    height: 100%;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.about-app {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.about-app h2 {
+    margin-bottom: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+.s_container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.s_container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.s_container p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.s_container.data-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.s_container .icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.s_container .data-item p {
+    margin: 0;
+}
+
+.s_container a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.s_container a:hover {
+    text-decoration: underline;
+}
+
+.s_container .divider {
+    border-top: 1px solid #333;
+    margin: 20px 0;
+}
+
+.p_container {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.p_container .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.p_container .header h1 {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.p_container .ratings {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.p_container .stars {
+    margin-left: 10px;
+    display: flex;
+}
+
+.p_container .star {
+    width: 15px;
+    height: 15px;
+    background-color: #1877f2;
+    clip-path: polygon(50% 0%,
+            63% 38%,
+            98% 38%,
+            69% 59%,
+            82% 100%,
+            50% 75%,
+            18% 100%,
+            31% 59%,
+            2% 38%,
+            37% 38%);
+    margin-right: 3px;
+}
+
+.p_container .review {
+    margin-top: 15px;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+}
+
+.p_container .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p_container .reviewer-name {
+    font-weight: bold;
+}
+
+.p_container .review-text {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.p_container .helpful {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.p_container .response {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+}
+
+.p_container .response h4 {
+    margin: 0 0 5px 0;
+}
+
+.p_container .referral {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #bbbbbb;
+}
